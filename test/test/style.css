@@ -1,0 +1,17 @@
+body{
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    img{
+        width: 500;
+        height: auto;
+    }
+}
+
+.mountain{
+    text-align: center;
+    background-color: wheat;
+}
+
+.ocean{
+    color: rgb(26, 26, 124);
+}
