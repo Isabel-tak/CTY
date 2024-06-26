@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice
+    </title>
+</head>
+<body>
+    
+<!--table without heading-->
+    <table>
+        <tr>
+            <td>15</td>
+            <td>13</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>39</td>
+            <td>29</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!---table with heading-->
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Saturday </th>
+            <th scope="col">Sunday </th>
+        </tr>
+
+        <tr>
+            <th scope="row"> Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600.00</td>
+            <td>$675.00</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!--email adress-->
+    <a href="mailto:isabeltak1228@gmail.com">Email</a>
+
+    <br><br>
+
+    <!--user input-->
+    <p>Username</p>
+    <input type="text" name="Username" size="15" maxlength="30">
+
+    <br><br>
+
+    <!--comment box-->
+    <p>Did you like the coffee?</p>
+    <textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
+
+    <br><br>
+
+    <!--input about radio-->
+    <p>Pleae select your favorite music service:
+    <br>
+    <input type="checkbox" name="service" value="itunes" checked="checked"> iTunes
+    <input type="checkbox" name="service" value="lastfm"> Last.Fm
+    <input type="checkbox" name="service" value="spotify"> Spotify
+    </p>
+
+    <br>
+
+    <!--selection dropdown-->
+    <p>What device do you listen to music on?</p>
+    <select name="devices">
+        <option value="iPod">iPod</option>
+        <option value="Radio">Radio</option>
+        <option value="Computer">Computer</option>
+    </select>
+
+    <!--multiple select box-->
+    <p>Do you play any of the following instruments?
+        (You can select more than one option by holding dow the control on a PC or command key on a Mac while selecting different options)
+    </p>
+    <select name="instrument" size="3" multiple="multiple">
+        <option value="guitar" selected="select">Guitar</option>
+        <option value="drum" selected="select">Drum</option>
+        <option value="keyboard" selected="select">Keyboard</option>
+        <option value="bass" selected="select">Bass</option>
+    </select>
+
+    <br><br>
+
+    <!--file input box-->
+    <p>Upload your song in MP3 format:</p>
+    <input type="file" name="user-song">
+    <br>
+    <input type="submit" value="Upload">
+
+    <br><br>
+
+    <!--image button-->
+    <p>Subscribe to our list:</p>
+    <input type="text" name="email">
+    <input type="image" src="image/Subscribe.jpeg" width="50" height="50">
+
+    <br><br>
+
+    <!--labeling form controls-->
+    <label>Age: <input type="text" name="age"></label>
+    <br>
+    Gender:
+    <input id="female" type="radio" name="gender" value="f">
+    <label for="female">Female</label>
+    
+    <input id="male" type="radio" name="gender" value="m">
+    <label for="male">Male</label>
+
+    <br><br>
+
+    <!--grouping for elements-->
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Email: 
+        <br>
+        <input type="text" name="email"></label>
+        <br>
+
+        <label>Mobile: 
+        <br>
+        <input type="text" name="mobile"></label>
+        <br>
+
+        <label>Telephone: 
+        <br>
+        <input type="text" name="telephone"></label>
+    </fieldset>
+
+    <br><br>
+
+    <!--html5 placeholder-->
+    <p>Search:</p>
+    <input type="search" name="search" placeholder="Enter keyword">
+    <input type="submit" value="search">
+
+    <br><br>
+
+    <!--html5 email input-->
+    <p>Please enter your email address:</p>
+    <input type="email" name="email">
+    <input type="submit" value="submit">
+    
+    <br><br>
+    
+</body>
+</html>
